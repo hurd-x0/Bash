@@ -1,0 +1,253 @@
+! -----------------------------
+! XFT SETTINGS
+! -----------------------------
+
+Xft.antialias:  true
+Xft.autohint:   false
+Xft.dpi:        96
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+Xft.lcdfilter:  lcddefault
+Xft.rgba:       rgb
+
+
+! -----------------------------
+! URXVT OPTIONS
+! -----------------------------
+
+URxvt*borderless:         true
+!URxvt*internalBorder:     15
+URxvt*jumpScroll:         true
+URxvt*scrollBar:          false
+URxvt*scrollTryOutput:    false
+URxvt*scrollTtyKeypress:  true
+URxvt*urgentOnBell:       true
+URxvt*visualBell:         false
+URxvt*letterSpace:        -3.90
+URxvt*geometry: 80x20
+!urxvt*transparent: true
+!urxvt*shading: 15
+! -----------------------------
+! FONTS
+! -----------------------------
+
+!URxvt.font: xft:Fira Mono:pixelsize=12,style=regular
+URxvt.font: xft:Fira konatu:pixelsize=12,style=regular
+URxvt.boldFont: xft:Fira konatu:pixelsize=12,style=bold
+URxvt.italicFont: xft:Fira konatu:pixelsize=12,style=bold
+URxvt.boldItalicFont: xft:Fira konatu:pixelsize=12,style=bold
+
+
+
+
+
+
+rofi.location:          0
+rofi.color-enabled:     true
+!                       'background', 'border'
+rofi.color-window:      argb:dd2e2e2e, argb:ff2e2e2e, argb:ff2e2e2e
+
+! State:                'bg',          'fg',   'bgalt',       'hlbg',        'hlfg'
+rofi.color-normal:      argb:00333333, #ffffff, argb:00333333, argb:00333333, argb:ffcc8822
+rofi.color-urgent:      argb:00333333, #ffffff, argb:00333333, argb:00333333, argb:ffcc8822
+rofi.color-active:      argb:00333333, #ffffff, argb:00333333, argb:00333333, argb:ffcc8822
+rofi.separator-style:   solid
+rofi.fullscreen:        true
+rofi.padding:           100
+rofi.hide-scrollbar:    true
+rofi.line-margin:       5
+rofi.fake-transparency: true
+rofi.yoffset:           10
+rofi.xoffset:           0
+rofi.width:             1366
+rofi.opacity:           90
+rofi.font:              Fira Mono 12
+
+!Xft.autohint: 1
+!Xft.lcdfilter: lcddefault
+!Xft.hintstyle: hintslight
+!Xft.hinting: 1
+!Xft.antialias: 1
+!Xft.rgba: rgb
+
+
+!!! =================================================
+
+!-------------------------------------------
+!!XTerm Config				   !
+!-------------------------------------------
+
+XTerm*faceName: Bitstream Vera Serif Mono
+xterm*faceSize: 12
+xterm*vt100*geometry: 80x20
+xterm*saveLines: 16384
+xterm*loginShell: true
+xterm*charClass: 33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48
+xterm*termName: xterm-color
+xterm*eightBitInput: false
+XTerm.vt100.saveLines: 4096
+!XTerm.vt100.faceName: DejaVu Sans Mono:style=Book:antialias=false
+!XTerm.vt100.faceNameDoublesize: WenQuanYi WenQuanYi Bitmap Song
+!XTerm.vt100.faceSize: 8
+XTerm.vt100.faceName: Liberation Mono:size=10:antialias=false
+XTerm.vt100.font: 7x13
+! disable bold font faces, instead make text light blue.
+! XTerm.vt100.colorBDMode: true
+! XTerm.vt100.colorBD: rgb:82/a4/d3
+! ! disable underlined text, instead make it white.
+! XTerm.vt100.colorULMode: true
+! XTerm.vt100.colorUL: rgb:e4/e4/e4
+! ! similarly use colorIT for italics
+
+! special
+!XTerm*.foreground:   #ffffff
+!XTerm*.background:   #2e2e2e
+!XTerm*.cursorColor:  #ffffff
+
+
+XTerm*.foreground:   #45b39d
+XTerm*.background:   #1b2631 
+XTerm*.cursorColor:  #f76262 
+
+
+! black
+XTerm*.color0:       #2e2e2e
+XTerm*.color8:       #676767
+
+! red
+XTerm*.color1:       #664444
+XTerm*.color9:       #976a6a
+
+! green
+XTerm*.color2:       #2d8338
+XTerm*.color10:      #52a25c
+
+! yellow
+XTerm*.color3:       #885522
+XTerm*.color11:      #e1a44a
+
+! blue
+XTerm*.color4:       #224455
+XTerm*.color12:      #365869
+
+! magenta
+XTerm*.color5:       #332244
+*.color13:      #49395b
+
+! cyan
+XTerm*.color6:       #537282
+*.color14:      #768e9a
+
+! white
+XTerm*.color7:       #a4a4a4
+XTerm*.color15:      #ffffff
+!
+!
+!!! ================== seoul256 ====================================
+!
+! 	seoul256 (dark) theme adapted for URxvt
+!
+!URxvt*background: #3a3a3a 
+!URxvt*foreground: #d0d0d0 
+!URxvt*color0: #4e4e4e
+!URxvt*color1: #d68787 
+!URxvt*color2: #5f865f
+!URxvt*color3: #d8af5f
+!URxvt*color4: #85add4
+!URxvt*color5: #d7afaf
+!URxvt*color6: #87afaf
+!URxvt*color7: #d0d0d0
+!URxvt*color8: #626262
+!URxvt*color9: #d75f87
+!URxvt*color10: #87af87
+!URxvt*color11: #ffd787 
+!URxvt*color12: #add4fb
+!URxvt*color13: #ffafaf
+!URxvt*color14: #87d7d7
+!URxvt*color15: #e4e4e4
+!URxvt*cursorColor: #d0d0d0
+!URxvt*cursorColor2: #3a3a3a
+!URxvt*colorBD: #e4e4e4
+
+!! 
+!urxvt*fading: 40
+
+!!! ===========================================================================
+!
+!!! Tango color theme
+!!! Strange - it matches tango from gnome-terminal, but looks different
+!urxvt.background: black
+!urxvt.background: #3a3a3a
+!urxvt.foreground: gray
+!URxvt.color0: rgb:00/00/00
+!URxvt.color1: rgb:CC/00/00
+!URxvt.color2: rgb:4E/9A/06
+!URxvt.color3: rgb:C4/A0/00
+!URxvt.color4: rgb:34/65/A4
+!URxvt.color5: rgb:75/50/7B
+!URxvt.color6: rgb:06/98/9A
+!URxvt.color7: rgb:D3/D7/CF
+!URxvt.color8: rgb:55/57/53
+!URxvt.color9: rgb:EF/29/29
+!URxvt.color10: rgb:8A/E2/34
+!URxvt.color11: rgb:FC/E9/4F
+!URxvt.color12: rgb:72/9F/CF
+!URxvt.color13: rgb:AD/7F/A8
+!URxvt.color14: rgb:34/E2/E2
+!URxvt.color15: rgb:EE/EE/EC
+!URxvt.colorBD: rgb:ff/ff/ff
+!!! =============================================================================	
+! solarized Color theme
+!
+!
+! Common
+
+#define S_yellow        #b58900
+#define S_orange        #cb4b16
+#define S_red           #dc322f
+#define S_magenta       #d33682
+#define S_violet        #6c71c4
+#define S_blue          #268bd2
+#define S_cyan          #2aa198
+#define S_green         #859900
+!
+!
+!
+#define S_base03        #002b36
+#define S_base02        #073642
+#define S_base01        #586e75
+#define S_base00        #657b83
+#define S_base0         #839496
+#define S_base1         #93a1a1
+#define S_base2         #eee8d5
+#define S_base3         #fdf6e3
+!
+! To only apply colors to your terminal, for example, prefix
+! ! the color assignment statement with its name. Example:
+! !
+URxvt*background:            S_base03
+!
+!*background:              S_base03
+ URxvt*foreground:              S_base0
+ URxvt*fading:                  40
+ URxvt*fadeColor:               S_base03
+ URxvt*cursorColor:             S_base1
+ URxvt*pointerColorBackground:  S_base01
+ URxvt*pointerColorForeground:  S_base1
+!
+ URxvt*color0:                  S_base02
+ URxvt*color1:                  S_red
+ URxvt*color2:                  S_green
+ URxvt*color3:                  S_yellow
+ URxvt*color4:                  S_blue
+ URxvt*color5:                  S_magenta
+ URxvt*color6:                  S_cyan
+ URxvt*color7:                  S_base2
+ URxvt*color9:                  S_orange
+ URxvt*color8:                  S_base03
+ URxvt*color10:                 S_base01
+ URxvt*color11:                 S_base00
+ URxvt*color12:                 S_base0
+ URxvt*color13:                 S_violet
+ URxvt*color14:                 S_base1
+ URxvt*color15:                 S_base3

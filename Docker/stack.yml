@@ -1,0 +1,23 @@
+Example stack.yml for joomla:
+
+version: '3.1'
+
+services:
+ jomoola:
+    image: joomla
+    restart: always
+    links:
+      - joomladb:mariadb
+    ports:
+      - 8080:80
+    enviroment:
+       JOOMLA_DB_HOST: 172.17.0.2
+       JOOMLA_DB_USER: master
+       JOOMLA_DB_PASSWORD: 2547561
+
+
+    joomladb:
+       image: mariadb
+       restart: always
+       environment:
+           MYSQL_ROOT_PASSWORD: 2547561

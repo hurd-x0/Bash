@@ -1,0 +1,24 @@
+
+ docker exec -it postgres0 psql -U postgres
+
+\?
+
+\h
+
+\l		list databases
+
+\du		list roles
+
+\dT		list data types
+
+\dt		list tables
+
+\dv		list views
+
+\dp     list table, view, and sequence access privileges
+
+SELECT version();
+
+
+psql command
+-d: The database name -h: The host name or IP address -u: The username -p: The port
