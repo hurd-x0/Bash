@@ -7,11 +7,9 @@
 #                                                            #
 ##############################################################
 echo 
-echo "this info for login to windos os frome remote"
+echo "this info for login to windows os frome remote"
 
-echo 
-
-echo ==============================================
+echo ===============================================
 
 echo
 
