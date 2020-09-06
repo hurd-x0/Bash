@@ -4,7 +4,7 @@
 
 # psql -h 127.0.0.1 -U postgres -p
 
-# psql -h 127.0.0.1 -U postgres 
+# psql -h 127.0.0.1 -U postgres -c 'SHOW config_file'
 
 # psql -h <host> -p <port> -u <database>
 # psql -h <host> -p <port> -U <username> -W <password> <database>
